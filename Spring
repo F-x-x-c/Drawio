@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T08:16:58.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="s5pj7BDiL-YjmYyrZPar" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-19T08:39:36.075Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="rV_yeIpEQIxWIdDzQ0C6" version="21.0.8" type="github">
   <diagram name="第 1 页" id="P03TeI29mse_XSQVimgZ">
-    <mxGraphModel dx="1306" dy="1668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5141" dy="2966" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-51" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="356" y="-449" width="3422" height="2099" as="geometry" />
+        </mxCell>
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-36" value="BeanDefinitionParserDelegate" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="2676" y="910" width="687" height="239" as="geometry" />
+        </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-6" value="DefaultBeanDefinitionDocumentReader" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#330000;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="1118" width="725" height="675" as="geometry" />
+          <mxGeometry x="1874" y="824" width="725" height="675" as="geometry" />
         </mxCell>
         <mxCell id="TrE0ZLIS1YJtnRbnslzg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" parent="1" source="ZbX3rnD9_NZDToBYAbjz-1" target="ZbX3rnD9_NZDToBYAbjz-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -50,16 +56,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hWXF_2KQyIEDfaRMC_Fg-1" value="resource定位" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="100" width="190" height="50" as="geometry" />
+          <mxGeometry x="-172" y="110" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.069;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hWXF_2KQyIEDfaRMC_Fg-2" target="-i0oVvw0js9zT0SGCiEM-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hWXF_2KQyIEDfaRMC_Fg-2" value="将资源加载到BeanDefinition" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="360" width="190" height="50" as="geometry" />
+          <mxGeometry x="-167" y="330" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hWXF_2KQyIEDfaRMC_Fg-3" value="将BeanDefinition注册到容器中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="480" width="190" height="50" as="geometry" />
+          <mxGeometry x="-172" y="970" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hWXF_2KQyIEDfaRMC_Fg-4" value="通过不同的ResouceLoader实现子类&lt;br&gt;获取不同的配置文件资源" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="90" width="250" height="60" as="geometry" />
+          <mxGeometry x="108" y="100" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;strokeWidth=2;" parent="1" source="ZbX3rnD9_NZDToBYAbjz-18" target="ZbX3rnD9_NZDToBYAbjz-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -71,16 +80,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-39" value="XmlBeanDefinitionReader" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#330000;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="590" width="670" height="498" as="geometry" />
+          <mxGeometry x="1874" y="296" width="670" height="498" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-40" value="loadBeanDefinitions(Resource resource)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#330000;" parent="1" vertex="1">
-          <mxGeometry x="1900" y="660" width="250" height="40" as="geometry" />
+          <mxGeometry x="1894" y="366" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;curved=1;" parent="1" source="ZbX3rnD9_NZDToBYAbjz-41" target="ZbX3rnD9_NZDToBYAbjz-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-41" value="将resource包裹为EncodedResource" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="2190" y="640" width="340" height="80" as="geometry" />
+          <mxGeometry x="2184" y="346" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" parent="1" source="ZbX3rnD9_NZDToBYAbjz-40" target="ZbX3rnD9_NZDToBYAbjz-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -89,13 +98,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-53" value="loadBeanDefinitions&lt;br&gt;(EncodedResource encodedResource)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#330000;" parent="1" vertex="1">
-          <mxGeometry x="1900" y="820" width="250" height="40" as="geometry" />
+          <mxGeometry x="1894" y="526" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZbX3rnD9_NZDToBYAbjz-54" target="ZbX3rnD9_NZDToBYAbjz-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-54" value="从指定的xml文件目录中加载bean对象&lt;br&gt;调用doLoadBeanDefinitions&lt;br&gt;(InputSource inputSource, Resource resource)方法" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="2190" y="800" width="340" height="80" as="geometry" />
+          <mxGeometry x="2184" y="506" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" parent="1" source="ZbX3rnD9_NZDToBYAbjz-53" target="ZbX3rnD9_NZDToBYAbjz-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -130,7 +139,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-20" value="BeanDefinitionReader" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=3;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="1720" y="-20" width="710" height="410" as="geometry" />
+          <mxGeometry x="1720" y="-20" width="710" height="254" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-21" value="&lt;div&gt;int loadBeanDefinitions(Resource resource) throws BeanDefinitionStoreException;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1830" y="10" width="480" height="40" as="geometry" />
@@ -162,17 +171,14 @@
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-62" value="调用loadBeanDefinitions&lt;br&gt;(XmlBeanDefinitionReader reader)方法" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1120" y="330" width="340" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZbX3rnD9_NZDToBYAbjz-64" value="XmlBeanDefinitionReader继承于AbstractBeanDefinitionReader&lt;br&gt;&lt;br&gt;AbstractBeanDefinitionReader继承于BeanDefinitionReader&lt;br&gt;&lt;br&gt;AbstractXmlApplicationContext继承于AbstractRefreshableConfigApplicationContext" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="510" y="922" width="470" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-65" value="doLoadBeanDefinitions(InputSource inputSource, Resource resource)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#330000;" parent="1" vertex="1">
-          <mxGeometry x="1900" y="910" width="250" height="40" as="geometry" />
+          <mxGeometry x="1894" y="616" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZbX3rnD9_NZDToBYAbjz-66" target="-i0oVvw0js9zT0SGCiEM-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-66" value="生成Document对象&lt;br&gt;调用registerBeanDefinitions&lt;br&gt;(Document doc, Resource resource)方法进行注册" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="2190" y="890" width="340" height="80" as="geometry" />
+          <mxGeometry x="2184" y="596" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZbX3rnD9_NZDToBYAbjz-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" parent="1" source="ZbX3rnD9_NZDToBYAbjz-65" target="ZbX3rnD9_NZDToBYAbjz-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -181,81 +187,102 @@
           <mxGeometry x="1672" y="50" width="42" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-2" value="registerBeanDefinitions&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(Document doc, Resource resource)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#330000;" vertex="1" parent="1">
-          <mxGeometry x="1900" y="1006" width="250" height="40" as="geometry" />
+          <mxGeometry x="1894" y="712" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-i0oVvw0js9zT0SGCiEM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-3" target="-i0oVvw0js9zT0SGCiEM-9">
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=2;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-3" target="-i0oVvw0js9zT0SGCiEM-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2360" y="1099" />
-              <mxPoint x="2025" y="1099" />
+              <mxPoint x="2354" y="812" />
+              <mxPoint x="2019" y="812" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-3" value="生成BeanDefinitionDocumentReader对象&lt;br&gt;调用registerBeanDefinitions&lt;br&gt;(Document doc, XmlReaderContext readerContext)方法&lt;br&gt;进行注册" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="986" width="340" height="80" as="geometry" />
+          <mxGeometry x="2184" y="692" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" edge="1" source="-i0oVvw0js9zT0SGCiEM-2" target="-i0oVvw0js9zT0SGCiEM-3" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-9" value="registerBeanDefinitions(Document doc, XmlReaderContext readerContext)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#330000;" vertex="1" parent="1">
-          <mxGeometry x="1900" y="1199" width="250" height="40" as="geometry" />
+          <mxGeometry x="1894" y="905" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-i0oVvw0js9zT0SGCiEM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-10" target="-i0oVvw0js9zT0SGCiEM-14">
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=2;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-10" target="-i0oVvw0js9zT0SGCiEM-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-10" value="调用doRegisterBeanDefinitions(Element root)方法" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="1179" width="340" height="80" as="geometry" />
+          <mxGeometry x="2184" y="885" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" edge="1" source="-i0oVvw0js9zT0SGCiEM-9" target="-i0oVvw0js9zT0SGCiEM-10" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-14" value="doRegisterBeanDefinitions(Element root)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#330000;" vertex="1" parent="1">
-          <mxGeometry x="1900" y="1321" width="250" height="40" as="geometry" />
+          <mxGeometry x="1894" y="1027" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-i0oVvw0js9zT0SGCiEM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-15" target="-i0oVvw0js9zT0SGCiEM-18">
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=2;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-15" target="-i0oVvw0js9zT0SGCiEM-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-i0oVvw0js9zT0SGCiEM-15" value="生成BeanDefinitionParserDelegate代理类&lt;br&gt;调用parseBeanDefinitions(Element root, BeanDefinitionParserDelegate delegate)方法" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="1301" width="340" height="80" as="geometry" />
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-15" value="生成BeanDefinitionParserDelegate代理类&lt;br&gt;调用parseBeanDefinitions(Element root, BeanDefinitionParserDelegate delegate)方法" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fillColor=#FF3333;strokeColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="2184" y="1007" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" edge="1" source="-i0oVvw0js9zT0SGCiEM-14" target="-i0oVvw0js9zT0SGCiEM-15" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-18" value="parseBeanDefinitions(Element root, BeanDefinitionParserDelegate delegate)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#330000;" vertex="1" parent="1">
-          <mxGeometry x="1900" y="1424" width="250" height="40" as="geometry" />
+          <mxGeometry x="1894" y="1130" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-i0oVvw0js9zT0SGCiEM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-19" target="-i0oVvw0js9zT0SGCiEM-23">
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=2;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-19" target="-i0oVvw0js9zT0SGCiEM-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-19" value="遍历节点及其子节点, 对其分别调用parseDefaultElement(Element ele, BeanDefinitionParserDelegate delegate)方法" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="1404" width="340" height="80" as="geometry" />
+          <mxGeometry x="2184" y="1110" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" edge="1" source="-i0oVvw0js9zT0SGCiEM-18" target="-i0oVvw0js9zT0SGCiEM-19" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-23" value="parseDefaultElement(Element ele, BeanDefinitionParserDelegate delegate)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#330000;" vertex="1" parent="1">
-          <mxGeometry x="1900" y="1537.5" width="250" height="40" as="geometry" />
+          <mxGeometry x="1894" y="1243.5" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-24" value="该方法的作用是分发, 对于不同的关键字进行不同的方法的调用&lt;br&gt;下面分析当遇到关键字为bean时的方法&lt;br&gt;processBeanDefinition(Element ele, BeanDefinitionParserDelegate delegate)" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="1513" width="407" height="89" as="geometry" />
+          <mxGeometry x="2184" y="1214.5" width="407" height="98" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" edge="1" source="-i0oVvw0js9zT0SGCiEM-23" target="-i0oVvw0js9zT0SGCiEM-24" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-28" value="processBeanDefinition(Element ele, BeanDefinitionParserDelegate delegate)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#330000;" vertex="1" parent="1">
-          <mxGeometry x="1903" y="1668" width="250" height="40" as="geometry" />
+          <mxGeometry x="1897" y="1374" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-i0oVvw0js9zT0SGCiEM-29" value="由代理类调用parseBeanDefinitionElement(Element ele)来创建BeanDefinitionHolder类的对象, 该对象持有ele, &lt;br&gt;并通过registerBeanDefinition(&lt;span style=&quot;background-color: initial;&quot;&gt;BeanDefinitionHolder definitionHolder, &lt;br&gt;BeanDefinitionRegistry registry)&lt;/span&gt;将该对象注入容器当中" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2192" y="1638.5" width="403" height="99" as="geometry" />
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeWidth=2;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-29" target="-i0oVvw0js9zT0SGCiEM-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-29" value="由代理类调用parseBeanDefinitionElement(Element ele)来创建BeanDefinitionHolder类的对象, 传入ele, 代理类会创建beanDefinition&lt;br&gt;并通过registerBeanDefinition(&lt;span style=&quot;background-color: initial;&quot;&gt;BeanDefinitionHolder definitionHolder, &lt;br&gt;BeanDefinitionRegistry registry)&lt;/span&gt;将该对象注入容器当中" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2186" y="1344.5" width="403" height="99" as="geometry" />
         </mxCell>
         <mxCell id="-i0oVvw0js9zT0SGCiEM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" edge="1" source="-i0oVvw0js9zT0SGCiEM-28" target="-i0oVvw0js9zT0SGCiEM-29" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-i0oVvw0js9zT0SGCiEM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.413;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-24" target="-i0oVvw0js9zT0SGCiEM-28">
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.413;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;curved=1;strokeWidth=2;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-24" target="-i0oVvw0js9zT0SGCiEM-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2358" y="1614" as="sourcePoint" />
-            <mxPoint x="2023" y="1668" as="targetPoint" />
+            <mxPoint x="2352" y="1320" as="sourcePoint" />
+            <mxPoint x="2017" y="1374" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-i0oVvw0js9zT0SGCiEM-37" target="-i0oVvw0js9zT0SGCiEM-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-37" value="parseBeanDefinitionElement(Element ele, @Nullable BeanDefinition containingBean)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="2704" y="987" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-38" value="该方法会调用一个重载方法, 重载方法又调用这个方法, &lt;br&gt;这里不展示那个同名方法了" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2992" y="947" width="359" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" edge="1" source="-i0oVvw0js9zT0SGCiEM-37" target="-i0oVvw0js9zT0SGCiEM-38" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-41" value="调用parseBeanDefinitionElement(&lt;div&gt;&lt;span style=&quot;&quot;&gt;			&lt;/span&gt;Element ele, String beanName, @Nullable BeanDefinition containingBean)方法创建beanDefinition&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="2995" y="1039" width="359" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-i0oVvw0js9zT0SGCiEM-49" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;说明&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;XmlBeanDefinitionReader继承于AbstractBeanDefinitionReader&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;AbstractBeanDefinitionReader继承于BeanDefinitionReader&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;AbstractXmlApplicationContext继承于AbstractRefreshableConfigApplicationContext&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1423" y="1046" width="332" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
