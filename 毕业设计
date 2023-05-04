@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T13:31:28.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yH1DhFOTX8uf8zWJLq0n" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T07:53:59.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="sIkiq7xJy6GZllt20Yw3" version="21.2.2" type="github">
   <diagram name="Page-1" id="Fcg4AXMc0bqZ2wJK7EBg">
-    <mxGraphModel dx="1851" dy="1535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="1">
+    <mxGraphModel dx="2250" dy="1924" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -492,16 +492,16 @@
         <mxCell id="UUcve1r6tjqOwfnFfWcz-51" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;开始&lt;/font&gt;" style="html=1;whiteSpace=wrap;shape=mxgraph.dfd.start;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="59" y="207" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UUcve1r6tjqOwfnFfWcz-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="UUcve1r6tjqOwfnFfWcz-52" edge="1">
+        <mxCell id="bMUeLjc3jLKArFhGp1Fy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-20;entryPerimeter=0;" edge="1" parent="1" source="UUcve1r6tjqOwfnFfWcz-52" target="UUcve1r6tjqOwfnFfWcz-58">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-230" y="954" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-74" y="954" />
+              <mxPoint x="-292" y="1435" />
+              <mxPoint x="-448" y="1435" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-52" value="打印错误信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-126" y="790" width="103" height="50" as="geometry" />
+          <mxGeometry x="-343.64" y="1365" width="103" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-53" value="该图片是否&lt;br&gt;存在人脸信息" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="68" y="477" width="115" height="60" as="geometry" />
@@ -516,34 +516,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-56" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;开始&lt;/font&gt;" style="html=1;whiteSpace=wrap;shape=mxgraph.dfd.start;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-298.39" y="350" width="140" height="40" as="geometry" />
+          <mxGeometry x="-518.29" y="944" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UUcve1r6tjqOwfnFfWcz-57" target="UUcve1r6tjqOwfnFfWcz-52" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="10" y="609" as="targetPoint" />
+            <mxPoint x="-207.64" y="1184" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-57" value="输入原数据数组是否为空&lt;br&gt;输入标签数组元素的类型&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;是否为CV_32SC1&lt;br&gt;数据数组元素的大小是否相同" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-352.36" y="429" width="244.36" height="148" as="geometry" />
+          <mxGeometry x="-570" y="1004" width="244.36" height="148" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-58" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;结束&lt;/font&gt;" style="html=1;whiteSpace=wrap;shape=mxgraph.dfd.start;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-300.63" y="985" width="140" height="40" as="geometry" />
+          <mxGeometry x="-517.8199999999999" y="1444" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UUcve1r6tjqOwfnFfWcz-57" target="UUcve1r6tjqOwfnFfWcz-74" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-229.6249999999999" y="613" as="sourcePoint" />
+            <mxPoint x="-447.2649999999999" y="1188" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UUcve1r6tjqOwfnFfWcz-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UUcve1r6tjqOwfnFfWcz-69" target="UUcve1r6tjqOwfnFfWcz-88" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UUcve1r6tjqOwfnFfWcz-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="UUcve1r6tjqOwfnFfWcz-69" edge="1">
+        <mxCell id="UUcve1r6tjqOwfnFfWcz-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UUcve1r6tjqOwfnFfWcz-69" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-74.07405598958337" y="722.5185185185185" as="targetPoint" />
+            <mxPoint x="-448" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMUeLjc3jLKArFhGp1Fy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="UUcve1r6tjqOwfnFfWcz-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-292.50000762939453" y="1268.5625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-69" value="标签数量与数据数量是否一致" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-325" y="685" width="188.75" height="75" as="geometry" />
+          <mxGeometry x="-542.1899999999999" y="1231" width="188.75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-73" value="打印错误信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="79" y="272" width="100" height="50" as="geometry" />
@@ -552,31 +554,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-74" value="标签数组转为矩阵&lt;br&gt;数据数组转为行矩阵&lt;br&gt;数据矩阵的行作为样本量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-302.88" y="615" width="144.49" height="50" as="geometry" />
+          <mxGeometry x="-520.53" y="1168" width="144.49" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-83" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-117.63" y="475" width="30" height="30" as="geometry" />
+          <mxGeometry x="-335.27" y="1050" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-86" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-117.63" y="701" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UUcve1r6tjqOwfnFfWcz-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UUcve1r6tjqOwfnFfWcz-88" target="UUcve1r6tjqOwfnFfWcz-89" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UUcve1r6tjqOwfnFfWcz-88" value="将数据数组、均值数组、主成分数量作为参数传入PCA类中&lt;br&gt;并生成对应的pca对象" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-312.95" y="785" width="164.62" height="50" as="geometry" />
+          <mxGeometry x="-335.27" y="1244" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-20;entryPerimeter=0;" parent="1" source="UUcve1r6tjqOwfnFfWcz-89" target="UUcve1r6tjqOwfnFfWcz-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UUcve1r6tjqOwfnFfWcz-89" value="通过pca对象获取均值、&lt;br&gt;特征值和特征向量，&lt;br&gt;并将其保存在对应的全局变量中" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-317.28999999999996" y="859" width="173.32" height="66" as="geometry" />
+        <mxCell id="UUcve1r6tjqOwfnFfWcz-89" value="将数据数组、均值数组、主成分数量作为参数传入PCA类中&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;并生成对应的pca对象&lt;br&gt;通过pca对象获取均值、&lt;br&gt;特征值和特征向量，&lt;br&gt;并将其保存在对应的全局变量中" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-534.4799999999999" y="1320" width="173.32" height="107" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-96" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-227" y="580" width="26" height="26" as="geometry" />
+          <mxGeometry x="-451" y="1146" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-97" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-227" y="759" width="26" height="26" as="geometry" />
+          <mxGeometry x="-451" y="1300" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UUcve1r6tjqOwfnFfWcz-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=20;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="UUcve1r6tjqOwfnFfWcz-105" target="UUcve1r6tjqOwfnFfWcz-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
